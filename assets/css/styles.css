@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro:400,400i,700,700i&display=swap');
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+   img { 
+        max-width: 100%; 
+        height: auto;
+    }
+
+
+header {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* Left Floated Nav Elements */
+
+.left {
+    float: left;
+    margin-left: 20%;
+    
+}
+
+.left li {
+    margin-left: 55px;
+}
+/* Right Floated Nav Elements */
+
+.right {
+    float: right;
+    margin-right: 20%;
+}
+
+.right li {
+    margin-right: 55px;
+}
+
+nav ul {
+    text-align: center;
+  
+}
+
+nav ul li {
+    display: inline;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #C0C0C0; 
+}
+
+
+/* Navigation Hover Colours */
+nav ul li a:hover {
+    color:black;
+}
+
+nav ul li a.currentpage {
+    color: black;
+}
+
+nav ul li a.currentpage:hover{
+    color: #C0C0C0; 
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+main {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+/*Right Float Text */
+.text-container {
+    width: 50%;
+    float: right;
+    display: inline-block;
+    padding-top: 150px;
+    margin-bottom: 35%;
+    text-align: right;
+}
+
+h3 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-weight:600
+}
+
+
+/*Center Text*/
+
+.text-container-2 {
+    text-align: center;
+}
+
+/*Left Float Text*/
+
+.text-container-left {
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10%;
+    padding-top: 20px;
+}
+
+main ul li {
+    list-style-type: circle;
+}
+
+
+/*Centered Image*/
+.cntrimg {
+    width: 60%;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+/*Left Floated Image*/
+
+.leftimg {
+    width: 40%;
+    float: left;
+    margin: 35px;
+}
+
+/*Right Floated Image*/
+.rimg {
+    width: 40%;
+    float: right;
+}
+
+
+p {
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    line-height: 24px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+/*Standard Content Page Wrapper*/
+.wrapper {
+    width: 980px;
+    margin: 0px auto;
+}
+
+
+/* Hero Content Functionality */
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url("../../assets/images/churchill-house-24.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.hero-robin {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footimg {
+    width: 5%;
+}
+
+
+
+.wrapper h2 {
+ font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    padding-top: 20px;
+}
+
+
+.hero h2 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+}
+
+.hero .btn:hover{
+    color: #C0C0C0;
+    
+}
+/* Footer Content */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-family: serif;
+    font-size: 12px;
+    color: black;
+}
+
+footer ul {
+    text-align: center;
+    
+}
+
+footer ul li {
+    display: inline;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+}
